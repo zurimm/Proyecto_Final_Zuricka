@@ -1,0 +1,185 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Eventos
+build_property.RootNamespace = Eventos
+build_property.ProjectDir = C:\Users\zurim\OneDrive\Escritorio\U Progra Zu\4to cuatri\Progra III\Proyecto Final\ProyectoF\Eventos\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\zurim\OneDrive\Escritorio\U Progra Zu\4to cuatri\Progra III\Proyecto Final\ProyectoF\Eventos
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Administradors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Administradors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Administradors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Administradors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Administradors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/cat_evento/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2F0X2V2ZW50b1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/cat_evento/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2F0X2V2ZW50b1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/cat_evento/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2F0X2V2ZW50b1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/cat_evento/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2F0X2V2ZW50b1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/cat_evento/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2F0X2V2ZW50b1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Entradas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmFkYXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Entradas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmFkYXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Entradas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmFkYXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Entradas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmFkYXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Entradas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmFkYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Evento/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Evento/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Evento/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Evento/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Evento/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Metodo_pago/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWV0b2RvX3BhZ29cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Metodo_pago/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWV0b2RvX3BhZ29cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Metodo_pago/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWV0b2RvX3BhZ29cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Metodo_pago/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWV0b2RvX3BhZ29cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Metodo_pago/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWV0b2RvX3BhZ29cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Soporte/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29wb3J0ZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Soporte/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29wb3J0ZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Soporte/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29wb3J0ZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Soporte/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29wb3J0ZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Soporte/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29wb3J0ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Usuarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Usuarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Usuarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Usuarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zurim/OneDrive/Escritorio/U Progra Zu/4to cuatri/Progra III/Proyecto Final/ProyectoF/Eventos/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-cpxa2bu1q5
