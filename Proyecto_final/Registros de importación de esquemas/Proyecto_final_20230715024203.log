@@ -1,0 +1,87 @@
+14/7/2023 20:42:03	Este registro contiene información acerca de la operación de importación de esquema en el proyecto 'Proyecto_final' del equipo 'ZURIMITCHELL' por el usuario 'zurim'.
+14/7/2023 20:42:04	Se inició la importación del esquema de la base de datos.
+14/7/2023 20:42:10	Recopilando credenciales de la base de datos
+14/7/2023 20:42:10	Recopilando opciones de base de datos
+14/7/2023 20:42:10	Recopilando la opción de configuración de ámbito de la base de datos genérica
+14/7/2023 20:42:10	Recopilando usuarios
+14/7/2023 20:42:10	Recopilando roles
+14/7/2023 20:42:10	Recopilando roles de aplicación
+14/7/2023 20:42:10	Recopilando pertenencias a roles
+14/7/2023 20:42:10	Recopilando grupos de archivos
+14/7/2023 20:42:10	Recopilando catálogos de texto completo
+14/7/2023 20:42:10	Recopilando ensamblados
+14/7/2023 20:42:10	Recopilando certificados
+14/7/2023 20:42:10	Recopilando claves asimétricas
+14/7/2023 20:42:10	Recopilando claves simétricas
+14/7/2023 20:42:10	Recopilando claves simétricas cifradas
+14/7/2023 20:42:10	Recopilando esquemas
+14/7/2023 20:42:10	Recopilando colecciones de esquemas XML
+14/7/2023 20:42:10	Recopilando tipos de datos definidos por el usuario
+14/7/2023 20:42:10	Recopilando tipos definidos por el usuario
+14/7/2023 20:42:10	Recopilando tipos de tabla
+14/7/2023 20:42:10	Recopilando claves únicas para tipos de tabla
+14/7/2023 20:42:10	Recopilando claves principales para tipos de tabla
+14/7/2023 20:42:10	Recopilando índices para tipos de tablas
+14/7/2023 20:42:10	Recopilando restricciones CHECK para tipos de tabla
+14/7/2023 20:42:10	Recopilando restricciones DEFAULT para tipos de tabla
+14/7/2023 20:42:10	Recopilando funciones de partición
+14/7/2023 20:42:10	Recopilando esquemas de partición
+14/7/2023 20:42:10	Recopilando funciones
+14/7/2023 20:42:10	Recopilando funciones cifradas
+14/7/2023 20:42:10	Recopilando agregados
+14/7/2023 20:42:10	Recopilando procedimientos
+14/7/2023 20:42:10	Recopilando procedimientos cifrados
+14/7/2023 20:42:10	Recopilando tablas
+14/7/2023 20:42:10	Recopilando claves principales
+14/7/2023 20:42:10	Recopilando restricciones UNIQUE
+14/7/2023 20:42:10	Recopilando claves externas
+14/7/2023 20:42:10	Recopilando restricciones DEFAULT
+14/7/2023 20:42:10	Recopilando restricciones CHECK
+14/7/2023 20:42:10	Recopilando vistas
+14/7/2023 20:42:10	Recopilando vistas cifradas
+14/7/2023 20:42:10	Recopilando índices
+14/7/2023 20:42:10	Recopilando estadísticas
+14/7/2023 20:42:10	Recopilando listas de palabras irrelevantes de índices de texto completo
+14/7/2023 20:42:10	Recopilando listas de propiedades de búsqueda
+14/7/2023 20:42:10	Recopilando propiedades de búsqueda
+14/7/2023 20:42:10	Recopilando índices de texto completo
+14/7/2023 20:42:10	Recopilando índices de almacenamiento de columnas
+14/7/2023 20:42:10	Recopilando índices espaciales
+14/7/2023 20:42:10	Recopilando índices XML
+14/7/2023 20:42:10	Recopilando índices XML selectivos
+14/7/2023 20:42:10	Recopilando desencadenadores cifrados
+14/7/2023 20:42:10	Recopilando desencadenadores
+14/7/2023 20:42:10	Recopilando DDL triggers cifrados y de CLR
+14/7/2023 20:42:10	Recopilando DDL triggers
+14/7/2023 20:42:10	Creación de la restricción perimetral en curso
+14/7/2023 20:42:10	Recopilando sinónimos
+14/7/2023 20:42:11	Recopilando valores predeterminados
+14/7/2023 20:42:11	Recopilando enlaces UDDT de restricción de datos
+14/7/2023 20:42:11	Recopilando reglas
+14/7/2023 20:42:11	Recopilando enlaces UDDT de restricción de datos
+14/7/2023 20:42:11	Recopilando tipos de mensaje
+14/7/2023 20:42:11	Recopilando colas
+14/7/2023 20:42:11	Recopilando contratos
+14/7/2023 20:42:11	Recopilando servicios
+14/7/2023 20:42:11	Recopilando notificaciones de eventos
+14/7/2023 20:42:11	Recopilando enlaces de servicio remoto
+14/7/2023 20:42:11	Recopilando prioridades de Broker
+14/7/2023 20:42:11	Recopilando firmas
+14/7/2023 20:42:11	Recopilando opciones de compresión
+14/7/2023 20:42:11	Recopilando tipos de secuencia
+14/7/2023 20:42:11	Recopilando directivas de seguridad
+14/7/2023 20:42:11	Recopilar claves de cifrado de columna
+14/7/2023 20:42:11	Recopilando claves maestras de columna
+14/7/2023 20:42:11	Recopilando orígenes de datos externos
+14/7/2023 20:42:11	Recopilando formatos de archivo externos
+14/7/2023 20:42:11	Recopilando tablas externas
+14/7/2023 20:42:11	Recopilando propiedades extendidas
+14/7/2023 20:42:11	Recopilando ensamblados
+14/7/2023 20:42:11	Recopilando credenciales
+14/7/2023 20:42:11	Recopilando inicios de sesión
+14/7/2023 20:42:11	Recopilando auditorías de servidor
+14/7/2023 20:42:12	Buscando elementos duplicados en el proyecto
+14/7/2023 20:42:13	Ha finalizado el procesamiento de los elementos duplicados
+14/7/2023 20:42:13	Finalizó la importación de la base de datos.
+14/7/2023 20:42:13	Se guardó un resumen de la importación en la siguiente ubicación: C:\Users\zurim\OneDrive\Escritorio\U Progra Zu\4to cuatri\Progra III\Proyecto Final\Proyecto_final\Registros de importación de esquemas\Proyecto_final_20230715024203.log
+14/7/2023 20:42:13	Haga clic en Finalizar para continuar...

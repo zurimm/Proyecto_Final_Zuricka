@@ -1,0 +1,6 @@
+C:\Users\zurim\OneDrive\Escritorio\U Progra Zu\4to cuatri\Progra III\Proyecto Final\Proyecto_final\bin\Debug\Proyecto_final.dacpac
+C:\Users\zurim\OneDrive\Escritorio\U Progra Zu\4to cuatri\Progra III\Proyecto Final\Proyecto_final\bin\Debug\Proyecto_final.dll
+C:\Users\zurim\OneDrive\Escritorio\U Progra Zu\4to cuatri\Progra III\Proyecto Final\Proyecto_final\bin\Debug\Proyecto_final.pdb
+C:\Users\zurim\OneDrive\Escritorio\U Progra Zu\4to cuatri\Progra III\Proyecto Final\Proyecto_final\obj\Debug\Proyecto_final.sqlproj.AssemblyReference.cache
+C:\Users\zurim\OneDrive\Escritorio\U Progra Zu\4to cuatri\Progra III\Proyecto Final\Proyecto_final\obj\Debug\Proyecto_final.dll
+C:\Users\zurim\OneDrive\Escritorio\U Progra Zu\4to cuatri\Progra III\Proyecto Final\Proyecto_final\obj\Debug\Proyecto_final.pdb
