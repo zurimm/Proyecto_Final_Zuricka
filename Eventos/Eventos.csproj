@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="Controllers\AdministradorsController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="wwwroot\assets\css\style.css" />
     <None Include="wwwroot\assets\img\apple-touch-icon.png" />
     <None Include="wwwroot\assets\img\bg.jpg" />
@@ -112,6 +116,7 @@
     <None Include="wwwroot\assets\vendor\swiper\swiper-bundle.min.js" />
     <None Include="wwwroot\assets\vendor\swiper\swiper-bundle.min.js.map" />
     <None Include="wwwroot\assets\vendor\waypoints\noframework.waypoints.js" />
+    <None Include="wwwroot\javascript\registro.js" />
   </ItemGroup>
 
   <ItemGroup>
@@ -121,7 +126,11 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.15" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Control\" />
   </ItemGroup>
 
 </Project>

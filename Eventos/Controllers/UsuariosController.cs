@@ -159,5 +159,24 @@ namespace Eventos.Controllers
         {
           return (_context.Usuario?.Any(e => e.Id == id)).GetValueOrDefault();
         }
+
+        public bool validarCredencial(String? email, String? pass)
+        {
+            if (_context.Usuario.Any(u => u.email == email))
+            {
+                if (_context.Usuario.Any(u => u.contraseña_usuario == pass))
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }

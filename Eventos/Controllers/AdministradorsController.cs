@@ -7,12 +7,15 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Eventos.Data;
 using Eventos.Models;
+using System.ComponentModel.DataAnnotations;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 
 namespace Eventos.Controllers
 {
     public class AdministradorsController : Controller
     {
-        private readonly EventosContext _context;
+        public EventosContext _context;
+
 
         public AdministradorsController(EventosContext context)
         {
@@ -159,5 +162,41 @@ namespace Eventos.Controllers
         {
           return (_context.Administrador?.Any(e => e.Id == id)).GetValueOrDefault();
         }
+
+        [HttpPost]
+        public ActionResult test()
+        {
+            return Json("Email controler");
+        }
+
+        public bool validarCredencial(String? email, String? pass) {
+
+            if (_context.Administrador.Any(u => u.email_Adm == email))
+            {
+
+
+                if (_context.Administrador.Any(u => u.contraseña_Adm == pass))
+                {
+                    return true;
+
+                }
+                else
+                {
+                    return false;
+                }
+
+
+            }
+            else { 
+            return false;
+            }
+
+
+
+        }
+
+     
     }
 }
+
+

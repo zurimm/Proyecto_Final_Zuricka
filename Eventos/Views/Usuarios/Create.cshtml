@@ -3,6 +3,8 @@
 @{
     ViewData["Title"] = "Create";
 }
+<script src="~/javascript/registro.js"></script>
+
 <div id="FondoUsu">
 
 
@@ -24,21 +26,29 @@
             </div>
             <div class="form-group">
                 <label asp-for="email" class="control-label"></label>
-                    <input style="border: 2px solid #18d26e; border-style:groove" asp-for="email" class="form-control" />
+                    <input id="email" style="border: 2px solid #18d26e; border-style:groove" asp-for="email" class="form-control" onchange="validar()" />
                 <span asp-validation-for="email" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="contraseña_usuario" class="control-label"></label>
-                    <input style="border: 2px solid #18d26e; border-style:groove" asp-for="contraseña_usuario" class="form-control" />
+                    <input id="contrasena" type="password" style="border: 2px solid #18d26e; border-style:groove" asp-for="contraseña_usuario" class="form-control" />
                 <span asp-validation-for="contraseña_usuario" class="text-danger"></span>
+                <input type="checkbox" id="vercontra" onchange="mostrarcontrasena()" />
+                <label>Mostrar contrasena </label>
             </div>
+                <div class="form-group">
+                    <input id="contrasena2" type="password" style="border: 2px solid #18d26e; border-style:groove" class="form-control" onchange="validarcontra()" />
+                    <span asp-validation-for="contraseña_usuario" class="text-danger"></span>
+                    <input type="checkbox" id="vercontra" onchange="mostrarcontrasena2()" />
+                    <label>Mostrar contrasena </label>
+                </div>
             <div class="form-group">
                 <label asp-for="nacimiento" class="control-label"></label>
-                    <input style="border: 2px solid #18d26e; border-style:groove" asp-for="nacimiento" class="form-control" />
+                    <input type="date" style="border: 2px solid #18d26e; border-style:groove" asp-for="nacimiento" class="form-control" />
                 <span asp-validation-for="nacimiento" class="text-danger"></span>
             </div>
             <div class="form-group" style="margin-top: 10%" >
-                <input type="submit" value="Crear" class="btn btn-primary" />
+                    <input type="submit" value="Crear" class="btn btn-primary" onclick="validaDatos()" />
             </div>
         </form>
     </div>
@@ -50,3 +60,4 @@
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
 </div>
+

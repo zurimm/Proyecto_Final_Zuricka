@@ -1,4 +1,6 @@
-﻿@{
+﻿@model Eventos.Controllers.HomeController
+
+@{
     Layout = null;
 }
 <!DOCTYPE html>
@@ -13,23 +15,24 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="~/assets/img/favicon.png" rel="icon">
+    <link href="~/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="~/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="~/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="~/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="~/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="~/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
-
+    <link href="~/assets/css/style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/javascript/login.js"></script>
     <!-- =======================================================
     * Template Name: Personal
     * Updated: Jul 27 2023 with Bootstrap v5.3.1
@@ -42,7 +45,7 @@
 <body>
 
     <!-- ======= Header ======= -->
-    <header id="header" >
+    <header id="header">
         <div class="container" id="Inicio" style="color:white">
 
             <h1><a style="color:white; border-color:antiquewhite" href=" ">Ola Cultura</a></h1>
@@ -52,7 +55,7 @@
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link active" style="color:white"  href="#login">Iniciar Sesión</a></li>
+                    <li><a class="nav-link active" style="color:white" href="#login">Iniciar Sesión</a></li>
                     <li class="nav-item">
                         <a style="color:white" class="nav-link active" asp-area="" asp-controller="Usuarios" asp-action="Create">Crear cuenta</a>
                     </li>
@@ -78,7 +81,7 @@
                 <a style="color:white" class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="">Usuario</a>
             </li>
         </div>
-           <!-- End About Me -->
+        <!-- End About Me -->
         <!-- ======= Counts ======= -->
         <div class="counts container">
 
@@ -358,20 +361,23 @@
                 <p>Ingrese sus datos</p>
             </div>
 
-            <form>
+            <form asp-action= "Validate">
 
                 <!-- Email input -->
                 <div class="form-outline mb-4">
-                    <input type="email" id="form2Example1" class="form-control" />
-                    <label class="form-label" for="form2Example1">Email address</label>
+                    <label asp-for="email" class="control-label"></label>
+                    <input type="email" id="emailprimer" asp-for="email" class="form-control" />
+                    <span asp-validation-for="email" class="text-danger"></span>
                 </div>
 
                 <!-- Password input -->
                 <div class="form-outline mb-4">
-                    <input type="password" id="form2Example2" class="form-control" />
-                    <label class="form-label" for="form2Example2">Password</label>
+                    <label asp-for="pass" class="control-label"></label>
+                    <input id="contrasena" type="password"  asp-for="pass" class="form-control" />
+                    <span asp-validation-for="pass" class="text-danger"></span>
+                    <input type="checkbox" id="vercontra" onchange="mostrarcontrasena()" />
+                    <label>Mostrar contrasena </label>
                 </div>
-
                 <!-- 2 column grid layout for inline styling -->
                 <div class="row mb-4">
                     <div class="col d-flex justify-content-center">
@@ -389,8 +395,9 @@
                 </div>
 
                 <!-- Submit button -->
-                <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
-
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
                 <!-- Register buttons -->
                 <div class="text-center">
                     <p>Not a member? <a href="#!">Register</a></p>
@@ -412,15 +419,12 @@
                     </button>
                 </div>
             </form>
-              
-        
+
+
 
         </div>
     </section><!-- End Resume Section -->
     <!-- ======= Services Section ======= -->
-
-
-
     <!-- Vendor JS Files -->
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -432,7 +436,17 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script>
+        
 
+
+
+        // Función para validar el correo electrónico (puede ser más compleja)
+        function validarEmail(email) {
+            var expresionRegular = /^[a-zA-Z0-9._-]+@@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+            return expresionRegular.test(email);
+        }
+    </script>
 </body>
 
 </html>
