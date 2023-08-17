@@ -12,8 +12,17 @@
 <hr />
 
 
+
 <div id="FondoUsu" class="row">
+
+
+
+    <div style="background-color :white; margin-left:80%; margin-top:7%; position:absolute">
+        <a asp-action="Index" style="text-align:center; text-decoration:none; ">No deseo crear Eventos</a>
+    </div>
+
     <div id="formulario" class="col-md-4">
+
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
@@ -41,16 +50,17 @@
                 <input asp-for="espacios_evento" class="form-control" />
                 <span asp-validation-for="espacios_evento" class="text-danger"></span>
             </div>
+            <br/>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Crear" class="btn btn-primary" />
             </div>
         </form>
+        
+       
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+
 
 
 

@@ -55,7 +55,7 @@ namespace Eventos.Controllers
                     }
                     else
                     {
-                        return Json("No funciona");
+                        return View("~/Views/Home/Index.cshtml");
                     }
 
 
@@ -64,42 +64,27 @@ namespace Eventos.Controllers
                 {
                     if (email.Contains("@ola.soporte.com"))
                     {
-                        Controllers.SoporteController controlSoporte2 = new Controllers.SoporteController(_context);
-                        if (email.Contains("@ola.admin.com"))
+                        bool val = controlAdmin2.validarCredencial(email, pass);
+                        if (val)
                         {
-                            bool val = controlSoporte2.validarCredencial(email, pass);
-                            if (val)
-                            {
-                                return View("~/Views/Administradors/Create.cshtml");
-                            }
-                            else
-                            {
-                                return Json("No funciona");
-                            }
+                            return View("~/Views/Administradors/Create.cshtml");
                         }
                         else
                         {
-                            return Json("No funciona");
+                            return View("~/Views/Home/Index.cshtml");
                         }
+                        
                     }
                     else
                     {
-                        Controllers.UsuariosController controlSoporte2 = new Controllers.UsuariosController(_context);
-                        if (email.Contains("@ola.admin.com"))
+                        bool val = controlAdmin2.validarCredencial(email, pass);
+                        if (val)
                         {
-                            bool val = controlSoporte2.validarCredencial(email, pass);
-                            if (val)
-                            {
-                                return View("~/Views/Home/Index.cshtml");
-                            }
-                            else
-                            {
-                                return Json("No funciona");
-                            }
+                            return View("~/Views/Home/Index.cshtml");
                         }
                         else
                         {
-                            return Json("No funciona");
+                            return View("~/Views/Home/Index.cshtml");
                         }
 
                     }
@@ -107,7 +92,8 @@ namespace Eventos.Controllers
             }
             else
             {
-                return Json("No funciona");
+                return View("~/Views/Home/Index.cshtml");
+
             }
 
         }

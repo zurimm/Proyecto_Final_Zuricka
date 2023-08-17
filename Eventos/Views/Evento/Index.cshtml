@@ -3,13 +3,15 @@
 @{
     ViewData["Title"] = "Index";
 }
+<link href="~/css/estiloadmin.css" rel="stylesheet" />
+<div id="TablaEvento" class="row">
 
-<h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
+
+<p style="margin-top:5%; margin-left:85%; margin-bottom:50%;background-color:white" >
+        <a asp-action="Create" style="padding:1%; text-decoration:none">Crear nuevo</a>
 </p>
-<table class="table">
+<table class="table" style="margin-left:4%; margin-right:20%; margin-top:-45%">
     <thead>
         <tr>
             <th>
@@ -49,11 +51,12 @@
                 @Html.DisplayFor(modelItem => item.espacios_evento)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+</div>
