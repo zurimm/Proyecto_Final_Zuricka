@@ -29,3 +29,15 @@ padding-left:5%;
     height: 100vh;
     z-index: 3;
 }
+
+#Soportevis {
+    content: "";
+    position: fixed;
+    background: #040404 url("../assets/img/6.jpg") top right no-repeat;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    top: 0%;
+    height: 100vh;
+    z-index: 3;
+}

@@ -493,12 +493,12 @@
       "PackagePath": "staticwebassets\\javascript\\eventos.js"
     },
     {
-      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\javascript\\login.js",
-      "PackagePath": "staticwebassets\\javascript\\login.js"
-    },
-    {
       "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\javascript\\registro.js",
       "PackagePath": "staticwebassets\\javascript\\registro.js"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\javascript\\soport.js",
+      "PackagePath": "staticwebassets\\javascript\\soport.js"
     },
     {
       "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\js\\site.js",

@@ -3,13 +3,36 @@
 @{
     ViewData["Title"] = "Create";
 }
+<script src="~/javascript/soport.js"></script>
 
-<h1>Create</h1>
+<link href="~/css/estiloadmin.css" rel="stylesheet" />
 
-<h4>Soporte</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
+<div id="Soportevis">
+
+
+    <h4>Soporte</h4>
+    <hr />
+
+
+    <button id="botonOpciones" style="margin-left:80%;" onclick=" mostrarBotones()">No quiero agregar usuarios de soporte</button>
+    <div id="botones" style="margin-left:80%; display:none">
+        <div style="background-color:white">
+            <a asp-action="Index">Usuarios de Soporte</a>
+        </div>
+        <div style="background-color:white">
+            <a  href="~/Administradors/Index">Administradores</a>
+
+           
+
+        </div>
+        <div style="background-color:white">
+            <a asp-action="Index">Usuarios</a>
+        </div>
+
+    </div>
+
+    <div class="row" style="margin-left:3%; margin-right:65%; margin-top:10%">
+        <br class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
@@ -27,17 +50,17 @@
                 <input asp-for="contraseña_Soporte" class="form-control" />
                 <span asp-validation-for="contraseña_Soporte" class="text-danger"></span>
             </div>
+            <br />
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
     </div>
-</div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
 
+</div>
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

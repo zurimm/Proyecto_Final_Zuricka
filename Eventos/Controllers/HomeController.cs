@@ -45,9 +45,10 @@ namespace Eventos.Controllers
         {
             if (email != null)
             {
-                Controllers.AdministradorsController controlAdmin2 = new Controllers.AdministradorsController(_context);
+               
                 if (email.Contains("@ola.admin.com"))
                 {
+                    Controllers.AdministradorsController controlAdmin2 = new Controllers.AdministradorsController(_context);
                     bool val = controlAdmin2.validarCredencial(email, pass);
                     if (val)
                     {
@@ -64,10 +65,11 @@ namespace Eventos.Controllers
                 {
                     if (email.Contains("@ola.soporte.com"))
                     {
+                        Controllers.SoporteController controlAdmin2 = new Controllers.SoporteController(_context);
                         bool val = controlAdmin2.validarCredencial(email, pass);
                         if (val)
                         {
-                            return View("~/Views/Administradors/Create.cshtml");
+                            return View("~/Views/Soporte/Create.cshtml");
                         }
                         else
                         {
@@ -77,6 +79,8 @@ namespace Eventos.Controllers
                     }
                     else
                     {
+                        Controllers.UsuariosController controlAdmin2 = new Controllers.UsuariosController(_context);
+
                         bool val = controlAdmin2.validarCredencial(email, pass);
                         if (val)
                         {

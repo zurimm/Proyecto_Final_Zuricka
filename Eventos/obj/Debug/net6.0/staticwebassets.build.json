@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "svBhL6T9LZh55jQIUcNVoub8NdAvEa5/N+HUCVQs/Sc=",
+  "Hash": "0xe0PMe1B/RxWjN3ejIYMEjnB2aT0aXf83nKvyJHB5M=",
   "Source": "Eventos",
   "BasePath": "_content/Eventos",
   "Mode": "Default",
@@ -2125,23 +2125,6 @@
       "OriginalItemSpec": "wwwroot\\javascript\\eventos.js"
     },
     {
-      "Identity": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\javascript\\login.js",
-      "SourceId": "Eventos",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\",
-      "BasePath": "_content/Eventos",
-      "RelativePath": "javascript/login.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\javascript\\login.js"
-    },
-    {
       "Identity": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\javascript\\registro.js",
       "SourceId": "Eventos",
       "SourceType": "Discovered",
@@ -2157,6 +2140,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\javascript\\registro.js"
+    },
+    {
+      "Identity": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\javascript\\soport.js",
+      "SourceId": "Eventos",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\",
+      "BasePath": "_content/Eventos",
+      "RelativePath": "javascript/soport.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\javascript\\soport.js"
     },
     {
       "Identity": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\js\\site.js",
