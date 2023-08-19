@@ -56,7 +56,7 @@ namespace Eventos.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id")] Entrada entrada)
+        public async Task<IActionResult> Create([Bind("Id,COSECUTIVO")] Entrada entrada)
         {
             if (ModelState.IsValid)
             {
@@ -66,6 +66,7 @@ namespace Eventos.Controllers
             }
             return View(entrada);
         }
+
 
         // GET: Entradas/Edit/5
         public async Task<IActionResult> Edit(int? id)

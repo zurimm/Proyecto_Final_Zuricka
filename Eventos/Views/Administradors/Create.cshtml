@@ -4,11 +4,35 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<link href="~/css/estiloadmin.css" rel="stylesheet" />
+<script src="~/javascript/menuadm.js"></script>
+<div id="Admvis" >
+    <h4 style="margin-top:5%; margin-left:3%">Administrador</h4>
+    <hr />
 
-<h4>Administrador</h4>
-<hr />
-<div class="row">
+<button id="botonOpciones" style="border-radius:20px; border:none; margin-left:85%; margin-right:1%; margin-top:1%; position:absolute " onclick=" mostrarBotones()">No quiero agregar usuarios Administradores</button>
+<br />
+<br />
+<div id="botones" style="display:none; margin-left:85%; position:absolute; align-content:center">
+    <br id="botones" style="margin-left:90%; display:none; align-content:center">
+    <br />
+    <div style="background-color:white;text-align:end;width:fit-content;border-radius:20px; align-content:center">
+        <a asp-action="Index"> Usuarios Administradores </a>
+    </div>
+    <br />
+    <div style="background-color:white;text-align:end;width:fit-content;border-radius:20px; align-content:center">
+        <a href="~/Soporte/Index"> Soporte </a>
+    </div>
+    <br />
+    <div style="background-color:white;text-align:end;width:fit-content;border-radius:20px; align-content:center">
+            <a href="~/Usuarios/Index"> Usuarios </a>
+    </div>
+</div>
+
+
+
+
+    <div class="row" style="margin-left:3%; margin-right:45; margin-top:1%">
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -27,6 +51,9 @@
                 <input asp-for="contraseña_Adm" class="form-control" />
                 <span asp-validation-for="contraseña_Adm" class="text-danger"></span>
             </div>
+         
+             <br/>
+
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
@@ -37,7 +64,7 @@
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
-
+</div>
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

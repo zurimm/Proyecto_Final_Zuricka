@@ -84,11 +84,11 @@ namespace Eventos.Controllers
                         bool val = controlAdmin2.validarCredencial(email, pass);
                         if (val)
                         {
-                            return View("~/Views/Home/Index.cshtml");
+                            return View("~/Views/Evento/VistUsuario.cshtml");
                         }
                         else
                         {
-                            return View("~/Views/Home/Index.cshtml");
+                            return View("~/Views/Evento/VistUsuario.cshtml");
                         }
 
                     }

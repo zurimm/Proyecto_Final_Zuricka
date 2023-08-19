@@ -4,12 +4,34 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<link href="~/css/estiloadmin.css" rel="stylesheet" />
+<script src="~/javascript/menuadm.js"></script>
 
-<p>
-    <a asp-action="Create">Create New</a>
+<div id="SoporIndex">
+<p style="margin-top:6%; margin-left:3%">
+    <a asp-action="Create" style="border-radius:20px; border:none; background-color:white; position:absolute">Crear nuevo</a>
 </p>
-<table class="table">
+<button id="botonOpciones" style="border-radius:20px; border:none; margin-left:85%; margin-right:1%; margin-top:1%; position:absolute " onclick=" mostrarBotones()">Mostrar Opciones</button>
+<br />
+
+<div id="botones" style="display:none; margin-left:85%; position:absolute; align-content:center">
+    <br id="botones" style="margin-left:90%; display:none; align-content:center">
+    <br />
+
+    <br />
+    <div style="background-color:white;text-align:end;width:fit-content;border-radius:20px; align-content:center">
+        <a href="~/Administradors/Index"> Administrador </a>
+    </div>
+    <br />
+    <div style="background-color:white;text-align:end;width:fit-content;border-radius:20px; align-content:center">
+        <a href="~/Usuarios/Index"> Usuarios </a>
+    </div>
+</div>
+
+
+
+
+    <table class="table" id="tablaAdm" style="margin-left:1%; overflow:scroll;">
     <thead>
         <tr>
             <th>
@@ -45,3 +67,4 @@
 }
     </tbody>
 </table>
+</div>

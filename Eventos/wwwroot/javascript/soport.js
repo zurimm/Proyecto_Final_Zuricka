@@ -19,7 +19,7 @@ function mostrarBotones() {
 
         x.style.display = "block";
     } else {
-        document.getElementById("botonOpciones").innerHTML = "No quiero agregar usuarios de soporte";
+        document.getElementById("botonOpciones").innerHTML = "Mostrar Opciones";
         x.style.display = "none";
     }
 }

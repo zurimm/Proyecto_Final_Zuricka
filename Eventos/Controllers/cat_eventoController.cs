@@ -13,6 +13,7 @@ namespace Eventos.Controllers
     public class cat_eventoController : Controller
     {
         private readonly EventosContext _context;
+        private Models.Evento evs;
 
         public cat_eventoController(EventosContext context)
         {
@@ -159,5 +160,7 @@ namespace Eventos.Controllers
         {
           return (_context.cat_evento?.Any(e => e.Id == id)).GetValueOrDefault();
         }
+
+
     }
 }

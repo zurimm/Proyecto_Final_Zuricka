@@ -5,6 +5,442 @@
       "PackagePath": "staticwebassets\\Eventos.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\css\\main.css",
+      "PackagePath": "staticwebassets\\assetsUsuario\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\css\\variables.css",
+      "PackagePath": "staticwebassets\\assetsUsuario\\css\\variables.css"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\logo.png",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\person-1.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\person-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\person-2.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\person-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\person-3.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\person-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\person-4.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\person-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\person-5.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\person-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\person-6.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\person-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\person-7.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\person-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-landscape-1.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-landscape-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-landscape-2.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-landscape-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-landscape-3.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-landscape-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-landscape-4.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-landscape-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-landscape-5.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-landscape-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-landscape-6.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-landscape-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-landscape-7.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-landscape-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-landscape-8.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-landscape-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-portrait-1.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-portrait-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-portrait-2.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-portrait-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-portrait-3.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-portrait-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-portrait-4.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-portrait-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-portrait-5.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-portrait-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-portrait-6.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-portrait-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-portrait-7.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-portrait-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-portrait-8.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-portrait-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-slide-1.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-slide-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-slide-2.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-slide-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-slide-3.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-slide-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-slide-4.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-slide-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-slide-5.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-slide-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-slide-6.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-slide-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-sq-1.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-sq-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-sq-2.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-sq-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-sq-3.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-sq-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-sq-4.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-sq-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-sq-5.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-sq-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-sq-6.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-sq-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-sq-7.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-sq-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\post-sq-8.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\post-sq-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\js\\main.js",
+      "PackagePath": "staticwebassets\\assetsUsuario\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\scss\\Readme.txt",
+      "PackagePath": "staticwebassets\\assetsUsuario\\scss\\Readme.txt"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\aos\\aos.cjs.js",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\aos\\aos.cjs.js"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\aos\\aos.css",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\aos\\aos.css"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\aos\\aos.esm.js",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\aos\\aos.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\aos\\aos.js",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\aos\\aos.js"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\aos\\aos.js.map",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\aos\\aos.js.map"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap-icons\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap-icons\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\glightbox\\css\\plyr.css",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\glightbox\\css\\plyr.css"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\glightbox\\css\\plyr.min.css",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\glightbox\\css\\plyr.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\php-email-form\\validate.js",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\php-email-form\\validate.js"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\vendor\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\assetsUsuario\\vendor\\swiper\\swiper-bundle.min.js.map"
+    },
+    {
       "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assets\\css\\style.css",
       "PackagePath": "staticwebassets\\assets\\css\\style.css"
     },
@@ -487,6 +923,14 @@
     {
       "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\javascript\\MenuAdm.js",
+      "PackagePath": "staticwebassets\\javascript\\MenuAdm.js"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\javascript\\categorias.js",
+      "PackagePath": "staticwebassets\\javascript\\categorias.js"
     },
     {
       "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\javascript\\eventos.js",

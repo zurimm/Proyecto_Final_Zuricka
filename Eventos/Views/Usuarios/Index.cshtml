@@ -4,42 +4,76 @@
     ViewData["Title"] = "Index";
 }
 
-<head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+<link href="~/css/estiloadmin.css" rel="stylesheet" />
+<script src="~/javascript/menuadm.js"></script>
 
-    <title>Personal Bootstrap Template</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
+<div id="UsuarioIndex">
+    <p style="margin-top:6%; margin-left:3%">
+        <a asp-action="Create" style="border-radius:20px; border:none; background-color:white; position:absolute">Crear nuevo</a>
+    </p>
+    <button id="botonOpciones" style="border-radius:20px; border:none; margin-left:85%; margin-right:1%; margin-top:1%; position:absolute " onclick=" mostrarBotones()">Mostrar Opciones</button>
+    <br />
 
-    <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <div id="botones" style="display:none; margin-left:85%; position:absolute; align-content:center">
+        <br id="botones" style="margin-left:90%; display:none; align-content:center">
+        <br />
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+        <br />
+        <div style="background-color:white;text-align:end;width:fit-content;border-radius:20px; align-content:center">
+            <a href="~/Administradors/Index"> Administrador </a>
+        </div>
+        <br />
+        <div style="background-color:white;text-align:end;width:fit-content;border-radius:20px; align-content:center">
+            <a href="~/Soporte/Index"> Soporte </a>
+        </div>
+    </div>
 
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
 
-    <!-- =======================================================
-    * Template Name: Personal
-    * Updated: Jul 27 2023 with Bootstrap v5.3.1
-    * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-    * Author: BootstrapMade.com
-    * License: https://bootstrapmade.com/license/
-    ======================================================== -->
-</head>
-<div style="text-align:center; margin-bottom: 50%">
-    <h1>¡Te has registrado correctamente!</h1>
-    <p><A style="color:antiquewhite" HREF="../"> click </A> para iniciar sesión</p>
+
+    <div style="margin-right:10%; margin-bottom:20%">
+        <table class="table" id="tablaAdm" style="margin-left:1%;">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Nombre_Usuario)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.email)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.contraseña_usuario)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.nacimiento)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Nombre_Usuario)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.email)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.contraseña_usuario)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.nacimiento)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                            <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
+                            <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
 </div>
-

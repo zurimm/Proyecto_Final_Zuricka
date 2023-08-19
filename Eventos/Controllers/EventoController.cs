@@ -62,9 +62,9 @@ namespace Eventos.Controllers
             {
                 _context.Add(evento);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return View("~/Views/cat_evento/Create.cshtml");
             }
-            return View(evento);
+            return View("~/Views/cat_evento/Create.cshtml");
         }
 
         // GET: Evento/Edit/5

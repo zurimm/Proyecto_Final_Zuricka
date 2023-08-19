@@ -10,28 +10,31 @@
 <div id="Soportevis">
 
 
-    <h4>Soporte</h4>
+
+    <h4 style="margin-top:5%; margin-left:3%">Soporte</h4>
     <hr />
 
-
-    <button id="botonOpciones" style="margin-left:80%;" onclick=" mostrarBotones()">No quiero agregar usuarios de soporte</button>
-    <div id="botones" style="margin-left:80%; display:none">
-        <div style="background-color:white">
-            <a asp-action="Index">Usuarios de Soporte</a>
+    <button id="botonOpciones" style="border-radius:20px; border:none; margin-left:85%; margin-right:1%; margin-top:1%; position:absolute " onclick=" mostrarBotones()">No quiero agregar usuarios de soporte</button>
+    <br />
+    <br />
+    <div id="botones" style="display:none; margin-left:85%; position:absolute; align-content:center">
+        <br id="botones" style="margin-left:90%; display:none; align-content:center">
+        <br />
+        <div style="background-color:white;text-align:end;width:fit-content;border-radius:20px; align-content:center">
+            <a asp-action="Index"> Usuarios de Soporte </a>
         </div>
-        <div style="background-color:white">
-            <a  href="~/Administradors/Index">Administradores</a>
-
-           
-
+        <br />
+        <div style="background-color:white;text-align:end;width:fit-content;border-radius:20px; align-content:center">
+            <a href="~/Administradors/Index"> Administradores </a>
         </div>
-        <div style="background-color:white">
-            <a asp-action="Index">Usuarios</a>
+        <br />
+        <div style="background-color:white;text-align:end;width:fit-content;border-radius:20px; align-content:center">
+            <a href="~/Usuarios/Index"> Usuarios </a>
         </div>
-
     </div>
+   
 
-    <div class="row" style="margin-left:3%; margin-right:65%; margin-top:10%">
+    <div class="row" style="margin-left:3%; margin-right:65%; margin-top:1%">
         <br class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
