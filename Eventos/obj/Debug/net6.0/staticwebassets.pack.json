@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\assetsUsuario\\css\\variables.css"
     },
     {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\0.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\2.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\2.jpg"
+    },
+    {
       "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\apple-touch-icon.png",
       "PackagePath": "staticwebassets\\assetsUsuario\\img\\apple-touch-icon.png"
     },
@@ -929,8 +937,16 @@
       "PackagePath": "staticwebassets\\javascript\\MenuAdm.js"
     },
     {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\javascript\\VistaUsuarios.js",
+      "PackagePath": "staticwebassets\\javascript\\VistaUsuarios.js"
+    },
+    {
       "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\javascript\\categorias.js",
       "PackagePath": "staticwebassets\\javascript\\categorias.js"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\javascript\\detalleEvento.js",
+      "PackagePath": "staticwebassets\\javascript\\detalleEvento.js"
     },
     {
       "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\javascript\\eventos.js",

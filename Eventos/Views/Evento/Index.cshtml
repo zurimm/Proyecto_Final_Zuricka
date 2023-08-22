@@ -3,10 +3,31 @@
 @{
     ViewData["Title"] = "Index";
 }
+
+<!-- Favicons -->
+<link href="~/assetsUsuario/img/favicon.png" rel="icon" />
+<link href="~/assetsUsuario/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Inter:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+<!-- Vendor CSS Files -->
+<link href="~/assetsusuario/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/assetsUsuario/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+<link href="~/assetsUsuario/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+<link href="~/assetsUsuario/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+<link href="~/assetsusuario/vendor/aos/aos.css" rel="stylesheet" />
+
+<!-- Template Main CSS Files -->
+<link href="~/assetsUsuario/css/variables.css" rel="stylesheet" />
+<link href="~/assetsUsuario/css/main.css" rel="stylesheet" />
+
 <link href="~/css/estiloadmin.css" rel="stylesheet" />
+<script src="~/javascript/vistausuarios.js"></script>
 
 
-   
 <div id="TablaEvento" class="row">
 
     <div style="background-color:white;text-align:end;width:fit-content;border-radius:20px; align-content:center; margin-top:5%; margin-left:3%">
@@ -14,55 +35,79 @@
     </div>
 
 
-<p style="margin-top:5%; margin-left:85%; margin-bottom:50%;background-color:white" >
+    <p style="margin-top:5%; margin-left:85%; margin-bottom:50%;background-color:white">
         <a asp-action="Create" style="padding:1%; text-decoration:none">Crear nuevo</a>
-</p>
-<table class="table" style="margin-left:4%; margin-right:20%; margin-top:-45%">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Nombre_evento)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Descripcion_evento)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.fecha_Evento)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.hora_evento)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.espacios_evento)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nombre_evento)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Descripcion_evento)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.fecha_Evento)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.hora_evento)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.espacios_evento)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    </p>
+    <table class="table" style="margin-left:4%; margin-right:20%; margin-top:-45%">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nombre_evento)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Descripcion_evento)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.fecha_Evento)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.hora_evento)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.espacios_evento)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nombre_evento)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Descripcion_evento)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.fecha_Evento)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.hora_evento)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.espacios_evento)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div id="ParaUsuario">
+    <div id="contenedor" style="margin-top: 5%;margin-left:30%;">
+
+        @foreach (var item in Model)
+        {
+            <div class="col-lg-9">
+                <div class="row g-5" style=" text-align:center;align-items:center;">
+                    <div class="col-lg-9 border-start custom-border" style=" text-align:center;align-items:center;">
+                        <div class="post-entry-1" style="text-align:center;align-items:center; border-color:white; border-style:solid; border-width: 3px; padding:2%; background-color:white">
+                            <a href="single-post.html"><img src="~/assetsUsuario/img/0.jpg" alt="" class="img-fluid"></a>
+                            <div class="post-meta"><span class="date">@Html.DisplayFor(modelItem => item.fecha_Evento)</span> <span class="mx-1">&bullet;</span> <span>@Html.DisplayFor(modelItem => item.hora_evento)</span></div>
+                            <h2><a href="single-post.html">@Html.DisplayFor(modelItem => item.Nombre_evento)</a></h2>
+                            <p>@Html.DisplayFor(modelItem => item.Descripcion_evento)</p>
+                            <p>Espacios disponibles:  @Html.DisplayFor(modelItem => item.espacios_evento)</p>
+                            <a asp-action="Details" asp-route-id="@item.Id">Ver evento</a> |
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
 </div>

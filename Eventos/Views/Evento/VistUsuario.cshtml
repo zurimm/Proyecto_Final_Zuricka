@@ -1,8 +1,12 @@
-﻿
-<link href="~/css/estiloadmin.css" rel="stylesheet" />
+﻿<script>
+    document.addEventListener("DOMContentLoaded", function () {
 
-<div id="VistDEusuario">
-
-
-
-</div>
+        if (window.location.href == "https://localhost:7193/Home/Validate") {
+            window.location.href = "../Evento/Index";
+            console.log(window.location.href);
+            console.log("redireccionar");
+        } else {
+            console.log(window.location);
+        }
+    });
+</script>

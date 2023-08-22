@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1TTR7DJV4yWA90nlmSK50aSBdHExMTnHuIqKDTm8/Co=",
+  "Hash": "lOfOjkcsrOtVcgvn5GZ1yvrjkkEmJbqWGqey5gUsgP4=",
   "Source": "Eventos",
   "BasePath": "_content/Eventos",
   "Mode": "Default",
@@ -2091,6 +2091,40 @@
       "OriginalItemSpec": "wwwroot\\assetsUsuario\\css\\variables.css"
     },
     {
+      "Identity": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\0.jpg",
+      "SourceId": "Eventos",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\",
+      "BasePath": "_content/Eventos",
+      "RelativePath": "assetsUsuario/img/0.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assetsUsuario\\img\\0.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\2.jpg",
+      "SourceId": "Eventos",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\",
+      "BasePath": "_content/Eventos",
+      "RelativePath": "assetsUsuario/img/2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assetsUsuario\\img\\2.jpg"
+    },
+    {
       "Identity": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\apple-touch-icon.png",
       "SourceId": "Eventos",
       "SourceType": "Discovered",
@@ -3978,6 +4012,23 @@
       "OriginalItemSpec": "wwwroot\\javascript\\categorias.js"
     },
     {
+      "Identity": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\javascript\\detalleEvento.js",
+      "SourceId": "Eventos",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\",
+      "BasePath": "_content/Eventos",
+      "RelativePath": "javascript/detalleEvento.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\javascript\\detalleEvento.js"
+    },
+    {
       "Identity": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\javascript\\eventos.js",
       "SourceId": "Eventos",
       "SourceType": "Discovered",
@@ -4044,6 +4095,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\javascript\\soport.js"
+    },
+    {
+      "Identity": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\javascript\\VistaUsuarios.js",
+      "SourceId": "Eventos",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\",
+      "BasePath": "_content/Eventos",
+      "RelativePath": "javascript/VistaUsuarios.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\javascript\\VistaUsuarios.js"
     },
     {
       "Identity": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\js\\site.js",

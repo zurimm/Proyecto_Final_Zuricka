@@ -369,7 +369,7 @@
                 <!-- Email input -->
                 <div class="form-outline mb-4">
                     <label asp-for="email" class="control-label"></label>
-                    <input type="email" id="emailprimer" asp-for="email" class="form-control" />
+                    <input type="email" id="emailprimer" asp-for="email" class="form-control" onchange="guardarEmail()" />
                     <span asp-validation-for="email" class="text-danger"></span>
                 </div>
 
@@ -457,11 +457,21 @@
         });
 
 
-        // Función para validar el correo electrónico (puede ser más compleja)
-        function validarEmail(email) {
-            var expresionRegular = /^[a-zA-Z0-9._-]+@@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-            return expresionRegular.test(email);
+        // Función para validar el correo electrónico
+        function guardarEmail() {
+            var email = document.getElementById("emailprimer").value;
+
+            localStorage.setItem("rol", email);
+
+            var role = localStorage.getItem("rol");
+            console.log("email: " + email);
+            console.log("rol: " + role);
+
         }
+
+
+
+
     </script>
 </body>
 
