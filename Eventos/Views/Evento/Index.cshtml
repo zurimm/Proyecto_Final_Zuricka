@@ -91,23 +91,26 @@
 </div>
 <div id="ParaUsuario">
     <div id="contenedor" style="margin-top: 5%;margin-left:30%;">
-
+        @{
+            int i = 0;
+        }
         @foreach (var item in Model)
         {
             <div class="col-lg-9">
                 <div class="row g-5" style=" text-align:center;align-items:center;">
                     <div class="col-lg-9 border-start custom-border" style=" text-align:center;align-items:center;">
                         <div class="post-entry-1" style="text-align:center;align-items:center; border-color:white; border-style:solid; border-width: 3px; padding:2%; background-color:white">
-                            <a href="single-post.html"><img src="~/assetsUsuario/img/0.jpg" alt="" class="img-fluid"></a>
+                            <a href="single-post.html"><img src="~/assetsUsuario/img/@i.ToString()_.jpg" alt="" class="img-fluid"></a>
                             <div class="post-meta"><span class="date">@Html.DisplayFor(modelItem => item.fecha_Evento)</span> <span class="mx-1">&bullet;</span> <span>@Html.DisplayFor(modelItem => item.hora_evento)</span></div>
                             <h2><a href="single-post.html">@Html.DisplayFor(modelItem => item.Nombre_evento)</a></h2>
                             <p>@Html.DisplayFor(modelItem => item.Descripcion_evento)</p>
                             <p>Espacios disponibles:  @Html.DisplayFor(modelItem => item.espacios_evento)</p>
-                            <a asp-action="Details" asp-route-id="@item.Id">Ver evento</a> |
+                            <a asp-action="Details" asp-route-id="@item.Id" onclick="return guardarImagen(@i.ToString())">Comprar entradas</a> |
                         </div>
                     </div>
                 </div>
             </div>
+            i++;
         }
     </div>
 </div>

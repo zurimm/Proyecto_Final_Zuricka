@@ -48,7 +48,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="espacios_evento" class="control-label"></label>
-                <input asp-for="espacios_evento" class="form-control" />
+                <input max="0" pattern="^[0-9]-"  asp-for="espacios_evento" class="form-control" />
                 <span asp-validation-for="espacios_evento" class="text-danger"></span>
             </div>
             <br/>

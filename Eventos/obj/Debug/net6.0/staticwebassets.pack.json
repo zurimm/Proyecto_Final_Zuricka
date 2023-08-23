@@ -13,12 +13,20 @@
       "PackagePath": "staticwebassets\\assetsUsuario\\css\\variables.css"
     },
     {
-      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\0.jpg",
-      "PackagePath": "staticwebassets\\assetsUsuario\\img\\0.jpg"
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\0_.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\0_.jpg"
     },
     {
-      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\2.jpg",
-      "PackagePath": "staticwebassets\\assetsUsuario\\img\\2.jpg"
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\1_.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\1_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\2_.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\2_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\3_.jpg",
+      "PackagePath": "staticwebassets\\assetsUsuario\\img\\3_.jpg"
     },
     {
       "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\apple-touch-icon.png",
@@ -951,6 +959,10 @@
     {
       "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\javascript\\eventos.js",
       "PackagePath": "staticwebassets\\javascript\\eventos.js"
+    },
+    {
+      "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\javascript\\pago.js",
+      "PackagePath": "staticwebassets\\javascript\\pago.js"
     },
     {
       "Id": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\javascript\\registro.js",

@@ -20,3 +20,9 @@ function vistUsuario(dominio) {
         document.getElementById("TablaEvento").style.display = "none";
     }
 }
+
+function guardarImagen(i) {
+    console.log("image: " + i);
+
+    localStorage.setItem("image", i);
+}

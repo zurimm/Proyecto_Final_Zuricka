@@ -1,48 +1,62 @@
 ﻿@model Eventos.Models.Metodo_pago
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Pago";
 }
 
-<h1>Create</h1>
+<link href="~/css/estiloadmin.css" rel="stylesheet" />
 
-<h4>Metodo_pago</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Numero_Tarjeta" class="control-label"></label>
-                <input asp-for="Numero_Tarjeta" class="form-control" />
-                <span asp-validation-for="Numero_Tarjeta" class="text-danger"></span>
+
+<script src="~/javascript/pago.js"></script>
+<div id="Pasarelapago">
+    <div style="margin-top:10%;margin-left:5%">
+        <h4>Ingrese metodo de pago</h4>
+        <hr />
+        <div class="row">
+            <div class="col-md-4">
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Numero_Tarjeta" class="control-label">Numero de tarjeta</label>
+                        <input asp-for="Numero_Tarjeta" class="form-control" />
+                        <span asp-validation-for="Numero_Tarjeta" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Fecha_vencimiento" class="control-label">Fecha de vencimiento</label>
+                        <input asp-for="Fecha_vencimiento" class="form-control" />
+                        <span asp-validation-for="Fecha_vencimiento" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="CVV" class="control-label"></label>
+                        <input asp-for="CVV" class="form-control" />
+                        <span asp-validation-for="CVV" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Nombre_tarjeta" class="control-label">Nombre en tarjeta</label>
+                        <input asp-for="Nombre_tarjeta" class="form-control" />
+                        <span asp-validation-for="Nombre_tarjeta" class="text-danger"></span>
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <input type="submit" value="Procesar pago" class="btn btn-primary" onclick="mostrarAlerta()" />
+                    </div>
+                </form>
             </div>
-            <div class="form-group">
-                <label asp-for="Fecha_vencimiento" class="control-label"></label>
-                <input asp-for="Fecha_vencimiento" class="form-control" />
-                <span asp-validation-for="Fecha_vencimiento" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="CVV" class="control-label"></label>
-                <input asp-for="CVV" class="form-control" />
-                <span asp-validation-for="CVV" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Nombre_tarjeta" class="control-label"></label>
-                <input asp-for="Nombre_tarjeta" class="form-control" />
-                <span asp-validation-for="Nombre_tarjeta" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+        </div>
     </div>
 </div>
+<script>
+    function generarPDF() {
+        import { jsPDF } from "jspdf";
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+        var doc = new jsPDF();
+        doc.text(10, 10, 'Hello world!');
+        doc.save('hello-world.pdf');
+    }
+</script>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

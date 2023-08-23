@@ -62,9 +62,11 @@ namespace Eventos.Controllers
             {
                 _context.Add(metodo_pago);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                //return RedirectToAction(nameof(Index));
+                return View("~/Views/Evento/VistUsuario.cshtml");
             }
-            return View(metodo_pago);
+            //return View(metodo_pago);
+            return View("~/Views/Evento/VistUsuario.cshtml");
         }
 
         // GET: Metodo_pago/Edit/5

@@ -5,6 +5,13 @@
     var dominio = myArray[1];
     vistUsuario(dominio);
 
+    var img = localStorage.getItem('image');
+    console.log(img);
+
+    var div = document.getElementById("imageEvento");
+
+
+    div.innerHTML += ' <a href="single-post.html"><img style="max-width: 50%;" src="../../assetsUsuario/img/' + img  +'_.jpg" alt="" class="img-fluid"></a>';
 });
 
 function vistUsuario(dominio) {
@@ -20,3 +27,4 @@ function vistUsuario(dominio) {
         document.getElementById("admin").style.display = "none";
     }
 }
+

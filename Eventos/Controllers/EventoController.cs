@@ -113,9 +113,11 @@ namespace Eventos.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                //return RedirectToAction(nameof(Index));
+                return View("~/Views/Metodo_pago/Create.cshtml");
             }
-            return View(evento);
+            //return View(evento);
+            return View("~/Views/Metodo_pago/Create.cshtml");
         }
 
         // GET: Evento/Delete/5
@@ -159,5 +161,24 @@ namespace Eventos.Controllers
         {
           return (_context.Evento?.Any(e => e.Id == id)).GetValueOrDefault();
         }
+
+        //Comprar
+        // GET: Evento/Comprar/5
+        public async Task<IActionResult> Comprar(int? id)
+        {
+            if (id == null || _context.Evento == null)
+            {
+                return NotFound();
+            }
+
+            var evento = await _context.Evento.FindAsync(id);
+            if (evento == null)
+            {
+                return NotFound();
+            }
+            return View(evento);
+        }
+
+
     }
 }

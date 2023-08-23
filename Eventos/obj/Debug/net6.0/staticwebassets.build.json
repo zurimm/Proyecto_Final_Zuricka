@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lOfOjkcsrOtVcgvn5GZ1yvrjkkEmJbqWGqey5gUsgP4=",
+  "Hash": "WFSFiPiK8mgKvqS7i5MukN3r82cYFP4t+hQl4Yqj0gY=",
   "Source": "Eventos",
   "BasePath": "_content/Eventos",
   "Mode": "Default",
@@ -2091,12 +2091,12 @@
       "OriginalItemSpec": "wwwroot\\assetsUsuario\\css\\variables.css"
     },
     {
-      "Identity": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\0.jpg",
+      "Identity": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\0_.jpg",
       "SourceId": "Eventos",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\",
       "BasePath": "_content/Eventos",
-      "RelativePath": "assetsUsuario/img/0.jpg",
+      "RelativePath": "assetsUsuario/img/0_.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2105,15 +2105,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assetsUsuario\\img\\0.jpg"
+      "OriginalItemSpec": "wwwroot\\assetsUsuario\\img\\0_.jpg"
     },
     {
-      "Identity": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\2.jpg",
+      "Identity": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\1_.jpg",
       "SourceId": "Eventos",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\",
       "BasePath": "_content/Eventos",
-      "RelativePath": "assetsUsuario/img/2.jpg",
+      "RelativePath": "assetsUsuario/img/1_.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2122,7 +2122,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assetsUsuario\\img\\2.jpg"
+      "OriginalItemSpec": "wwwroot\\assetsUsuario\\img\\1_.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\2_.jpg",
+      "SourceId": "Eventos",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\",
+      "BasePath": "_content/Eventos",
+      "RelativePath": "assetsUsuario/img/2_.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assetsUsuario\\img\\2_.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\3_.jpg",
+      "SourceId": "Eventos",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\",
+      "BasePath": "_content/Eventos",
+      "RelativePath": "assetsUsuario/img/3_.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assetsUsuario\\img\\3_.jpg"
     },
     {
       "Identity": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\assetsUsuario\\img\\apple-touch-icon.png",
@@ -4061,6 +4095,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\javascript\\MenuAdm.js"
+    },
+    {
+      "Identity": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\javascript\\pago.js",
+      "SourceId": "Eventos",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\",
+      "BasePath": "_content/Eventos",
+      "RelativePath": "javascript/pago.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\javascript\\pago.js"
     },
     {
       "Identity": "C:\\Users\\zurim\\Downloads\\proyecto2\\ProyectoF\\Eventos\\wwwroot\\javascript\\registro.js",

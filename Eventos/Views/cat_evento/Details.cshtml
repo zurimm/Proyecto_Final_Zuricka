@@ -3,34 +3,38 @@
 @{
     ViewData["Title"] = "Details";
 }
+<link href="~/css/estiloadmin.css" rel="stylesheet" />
+<div id="estilo">
+    <div style="margin-left:5%; margin-top:10%">
+        <h1>Details</h1>
 
-<h1>Details</h1>
-
-<div>
-    <h4>cat_evento</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Nombre_Cat)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Nombre_Cat)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Precio_cat_Entrada)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Precio_cat_Entrada)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.contraseña_cat)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.contraseña_cat)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+        <div>
+            <h4>cat_evento</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Nombre_Cat)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Nombre_Cat)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Precio_cat_Entrada)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Precio_cat_Entrada)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.contraseña_cat)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.contraseña_cat)
+                </dd>
+            </dl>
+        </div>
+        <div>
+            <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+            <a asp-action="Index">Back to List</a>
+        </div>
+    </div>
 </div>

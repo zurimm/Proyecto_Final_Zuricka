@@ -1,0 +1,18 @@
+﻿@model Eventos.Models.Evento
+
+@{
+    ViewData["Title"] = "Edit";
+}
+<div id="pagos">
+    <form asp-action="Edit">
+        <input type="hidden" asp-for="Id" />
+        <div class="form-group">
+            <label asp-for="espacios_evento" class="control-label">Digite el numero de entradas que desea</label>
+            <input type="number" asp-for="espacios_evento" class="form-control" />
+            <span asp-validation-for="espacios_evento" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Comprar" class="btn btn-primary" />
+        </div>
+    </form>
+</div>
